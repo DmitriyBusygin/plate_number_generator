@@ -1,4 +1,6 @@
-server.port=8080
 spring.datasource.url=#Указать адрес своей БД
 spring.datasource.username=
 spring.datasource.password=
+server.port=8080
+server.servlet.encoding.charset=UTF-8
+server.servlet.encoding.force=true
