@@ -1,4 +1,4 @@
-package my.plate_number_generator.entity;
+package my.plateNumberGenerator.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package my.plate_number_generator.util;
+package my.plateNumberGenerator.util;
 
 public interface PlateDataGenerator<T> {
     T generateRandom();

@@ -1,6 +1,6 @@
-package my.plate_number_generator.util.impl;
+package my.plateNumberGenerator.util.impl;
 
-import my.plate_number_generator.util.PlateDataGenerator;
+import my.plateNumberGenerator.util.PlateDataGenerator;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

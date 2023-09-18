@@ -1,6 +1,6 @@
-package my.plate_number_generator.repository;
+package my.plateNumberGenerator.repository;
 
-import my.plate_number_generator.entity.PlateNumber;
+import my.plateNumberGenerator.entity.PlateNumber;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

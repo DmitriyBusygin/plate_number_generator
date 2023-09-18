@@ -1,4 +1,4 @@
-package my.plate_number_generator.util.impl;
+package my.plateNumberGenerator.util.impl;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

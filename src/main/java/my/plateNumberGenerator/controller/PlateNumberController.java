@@ -1,10 +1,10 @@
-package my.plate_number_generator.controller;
+package my.plateNumberGenerator.controller;
 
 import lombok.extern.slf4j.Slf4j;
 
-import my.plate_number_generator.dto.PlateNumberDto;
-import my.plate_number_generator.entity.PlateNumber;
-import my.plate_number_generator.service.PlateNumberService;
+import my.plateNumberGenerator.dto.PlateNumberDto;
+import my.plateNumberGenerator.entity.PlateNumber;
+import my.plateNumberGenerator.service.PlateNumberService;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

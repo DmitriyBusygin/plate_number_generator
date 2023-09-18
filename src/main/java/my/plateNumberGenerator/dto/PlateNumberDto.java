@@ -1,4 +1,4 @@
-package my.plate_number_generator.dto;
+package my.plateNumberGenerator.dto;
 
 import lombok.Data;
 

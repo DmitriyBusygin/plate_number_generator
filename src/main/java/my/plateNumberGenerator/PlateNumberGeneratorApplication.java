@@ -1,4 +1,4 @@
-package my.plate_number_generator;
+package my.plateNumberGenerator;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

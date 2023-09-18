@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>my</groupId>
-    <artifactId>plate_number_generator</artifactId>
+    <artifactId>plateNumberGenerator</artifactId>
     <version>1</version>
-    <name>plate_number_generator</name>
-    <description>plate_number_generator</description>
+    <name>plateNumberGenerator</name>
+    <description>plateNumberGenerator</description>
     <properties>
         <java.version>17</java.version>
     </properties>

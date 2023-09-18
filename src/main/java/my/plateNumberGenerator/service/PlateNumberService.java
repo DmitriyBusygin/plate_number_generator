@@ -1,15 +1,15 @@
-package my.plate_number_generator.service;
+package my.plateNumberGenerator.service;
 
-import my.plate_number_generator.entity.PlateNumber;
-import my.plate_number_generator.repository.PlateNumberRepository;
-import my.plate_number_generator.util.impl.RegistrationCodeGeneratorImpl;
-import my.plate_number_generator.util.impl.SeriesGeneratorImpl;
+import my.plateNumberGenerator.entity.PlateNumber;
+import my.plateNumberGenerator.repository.PlateNumberRepository;
+import my.plateNumberGenerator.util.impl.RegistrationCodeGeneratorImpl;
+import my.plateNumberGenerator.util.impl.SeriesGeneratorImpl;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-import static my.plate_number_generator.util.impl.RegistrationCodeGeneratorImpl.MAX_REGISTRATION_CODE;
-import static my.plate_number_generator.util.impl.RegistrationCodeGeneratorImpl.MIN_REGISTRATION_CODE;
+import static my.plateNumberGenerator.util.impl.RegistrationCodeGeneratorImpl.MAX_REGISTRATION_CODE;
+import static my.plateNumberGenerator.util.impl.RegistrationCodeGeneratorImpl.MIN_REGISTRATION_CODE;
 
 @Service
 public class PlateNumberService {
