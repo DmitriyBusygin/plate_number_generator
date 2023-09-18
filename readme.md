@@ -31,4 +31,4 @@
 
 Для запуска приложения, необходимо создать пустую БД и ввести параметры подключения
 в [application.properties.origin](src%2Fmain%2Fresources%2Fapplication.properties.origin) и переименовать
-файл в application.properties. При запуске приложения таблица создастся автоматически.
+файл в application.properties. При запуске приложения таблица создастся автоматически из [schema.sql](src%2Fmain%2Fresources%2Fschema.sql)
