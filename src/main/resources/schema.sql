@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXISTS numbers
     country           varchar(3) NOT NULL,
     PRIMARY KEY (series, registration_code, region_code, country)
 );
+CREATE INDEX idx_numbers_id ON numbers (id);
