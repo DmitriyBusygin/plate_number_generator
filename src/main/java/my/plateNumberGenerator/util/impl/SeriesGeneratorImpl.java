@@ -1,6 +1,8 @@
 package my.plateNumberGenerator.util.impl;
 
 import my.plateNumberGenerator.util.PlateDataGenerator;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -9,6 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 @Component
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class SeriesGeneratorImpl implements PlateDataGenerator<String> {
     private static final List<Character> letters = new ArrayList<>(Arrays.asList('А', 'В', 'Е', 'К', 'М', 'Н', 'О', 'Р', 'С', 'Т', 'У', 'Х'));
     private static final int NUMBER_OF_LETTERS = 3;
